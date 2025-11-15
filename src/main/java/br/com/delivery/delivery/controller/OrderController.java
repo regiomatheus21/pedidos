@@ -3,16 +3,12 @@ package br.com.delivery.delivery.controller;
 import br.com.delivery.delivery.dtos.OrderRequestDTO;
 import br.com.delivery.delivery.dtos.OrderResponseDTO;
 import br.com.delivery.delivery.service.OrderService;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.mvc.AbstractController;
 
 @RestController
 @RequestMapping("/v1/orders")
